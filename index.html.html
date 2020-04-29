@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <script src="jquery-3.4.1.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Jing Jing Yi Zhan BEIJING CHANGYANGPARK</title>
+    <base target="_self">
+</head>
+
+<body>
+<!--<div class="bg-cover"></div> <网页全面展开>-->
+<div id="container"><!--  <网页画面有余白>-->
+<!--<点击照片放大-->
+  <div id="image-cover-modal" class="image-cover-modal">
+  <img id="image-cover-image" class="image-cover-modal-content">
+  <div id="image-cover-caption"></div>
+</div><!--<点击照片放大-->
+
+   <header id="HeaderBlock">
+      <img src="./img/2.png">
+      <h1>BEIJING CHANGYANGPARK</h1>
+      <h3>Jing Jing Yi Zhan</h3>
+    </header>
+
+    <nav>
+      <button id="menuButton">Click me!</button>
+      <ul id="con">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="spring.html">Spring</a></li>
+          <li><a href="summer.html">Summer</a></li>
+          <li><a href="autumn.html">Autumn</a></li>
+          <li><a href="winter.html">Winter</a></li>
+          <li><a href="holiday.html">Holiday</a></li>
+          <li><a href="other.html">Other </a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <section>
+        <article id="VIDEO">
+              <video src="movies/changyangPark.mp4" muted autoplay loop></video>
+       </article>
+
+        <article>
+          <button onClick="MyFunction()" >Click Me!</button>
+
+        <!--  <button onClick="ChangeBGColor()" >Click Me!</button>-->
+          <ul>
+            <li><img src="./img/autumn/1.jpg" title="Autumn"></li>
+            <li><img src="./img/autumn/11.jpg" alt="Autumn" title="Autumn"></li>
+            <li><img src="./img/autumn/8.jpg" alt="Autumn" title="Autumn"></li>
+          </ul>
+
+          <ul>
+              <li><img src="./img/autumn/9.jpg" alt="Autumn" title="Autumn"></li>
+              <li><img src="./img/autumn/10.jpg" alt="Autumn" title="Autumn"></li>
+              <li><img src="./img/winter/111.jpg" alt="winter" title="winter"></li>
+          </ul>
+
+        </article>
+
+        <article id="TEXT">
+          <h3>Thank you for watching.</h3>
+          <!--<br>ありがとうございます。</br>-->
+        </article>
+
+        <article>
+
+
+
+            <h3>Jing Jing Yi Zhan Simple description
+            <!--全ての素晴らしい瞬間を記録しようとしています。-->
+
+             <br>I want to record every good moment.</br>
+            <!-- <p><br>全ての素晴らしい瞬間を記録しようとしています。</br></p>-->
+
+            <!--仕事や勉強で疲れた時は、このサイトを見てリラクスして下さい。-->
+             When you are tired of work or study,look at this website to relax.</h3>
+            <!-- <p><br>仕事や勉強で疲れた時は、このサイトを見てリラクスして下さい。</br></p>-->
+        </article>
+
+      </section>
+
+      <!--JS-->
+      <aside id="ABC">
+          <button onClick="MyFunction2()" >Click Me!</button>
+            <!--  <h4>Example0１</h4>
+              <form onsubmit="return false;">
+                <input id="DocumentTitle" type="text" placeholder="Document Title">
+                <input type="button" onClick="ChangeTitle()" value="OK">
+              </form>
+
+              <h4>Example02</h4>
+              <form onsubmit="return false;">
+                <input  id="TEXT" type="text" placeholder="Heading 1">
+                <input type="button" onClick="ChangeContent()" value="OK">
+              </form>
+
+              <h4>Example03</h4>
+              <form onsubmit="return false;">
+                <input id="HeaderCOL" type="text" placeholder="Header Color">
+                <input type="button" onClick="ChangeBGColor()" value="OK">
+              </form>
+
+              <h4>Example04</h4>
+              <form onsubmit="return false;">
+                <input id="PickColor" type="color">
+                <input type="button" onClick="ChangeBGColor2()" value="OK">
+              </form>
+
+              <h4>Example05</h4>
+              <form onsubmit="return false;">
+                <input type="button" onClick="ToggleTheme()" value="Toggle ThemeColor">
+              </form>
+
+              <h4>Example06</h4>
+              <form>
+                <input id="X" type="text" size="8" placeholder="INPUT X">
+                <input id="Y" type="text" size="8" placeholder="INPUT Y">
+                <p>
+                  <input id="ANS" type="text" size="12" placeholder="RESULT">
+                  <button type="button" onClick="CalcData()">CALC</button>
+                </p>
+              </form>-->
+              <h5>Changyang Park</h5>
+              <h6>is located in Fangshan District, Beijing, also known as Fangshan New City Waterfront Forest Park.</h6>
+
+              <h5>The park</h5>
+              <h6>has beautiful scenery, lush flowers and quiet environment. It mainly has three parts: urban comprehensive area, wetland display area and country ecological area. It is distributed with Huaqiu Shi, Huancui Island, green shade labyrinth, condensate autumn color, leisure walk, etc. Attractions.</h6>
+
+              <h5> Self-service </h5>
+              <h6>water dispenser,Jianbu Road in the park.</h6>
+              <h5>There</h5>
+              <h6>are many trees and plants, and the environment is good.
+              The air is fresh and suitable for walking.
+              There are some landscape sculptures in the park.
+              The park is always filled with
+              a laid-back atmosphere,
+              Let your nervous nerves relax.
+              Crossing the river stones of reeds and lotus leaves,
+              Looking at the rows of reflections moving in the river,
+              Facing the warm sunshine.</h6>
+          </aside>
+
+    </main>
+
+
+
+
+
+    <footer>
+      <h3> http://www.BEIJING CHANGYANGPARK.com</h3>
+    </footer>
+
+  </div>
+
+</body>
+</html>
